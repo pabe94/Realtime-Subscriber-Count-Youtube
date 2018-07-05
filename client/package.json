@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue serve App.vue"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@vue/cli": "^3.0.0-rc.3",
+    "@vue/cli-service-global": "^3.0.0-rc.3",
+    "socket.io-client": "^2.1.1"
+  }
+}
