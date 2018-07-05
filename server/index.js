@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const http = require('http');
 const socketIO = require('socket.io');
 
-const STATS_URL = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyAO_X1uiBDHhE0X_NmaO77n355BVcyvAuM';
+const STATS_URL = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key={API KEY HERE}';
 
 
 const app = express();
